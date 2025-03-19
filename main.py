@@ -56,7 +56,7 @@ def open_image(icon):
     weather_icon.create_image(0,0, anchor='nw', image=img)
     weather_icon.image=img
 
-img = Image.open('./weather-bg.jpg')
+img = Image.open('./img/weather-bg.jpg')
 img = img.resize((600, 500))
 img_photo = ImageTk.PhotoImage(img)
 
